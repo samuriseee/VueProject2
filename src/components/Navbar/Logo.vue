@@ -13,6 +13,6 @@ export default {};
   font-weight: 600;
   font-size: 100px;
   font-family: "AlphaCentauri";
-  margin-top:-100px;
+  margin-top: -100px;
 }
 </style>
