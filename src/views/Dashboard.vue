@@ -1,21 +1,18 @@
 <template>
-   <div>
-      <secretLayout>
-        <router-view />
-      </secretLayout>
-   </div>
+  <div>
+    <secretLayout>
+      <router-view />
+    </secretLayout>
+  </div>
 </template>
 
 <script>
-
-import secretLayout from "../layout/secret.vue"
+import secretLayout from "../layout/secret.vue";
 export default {
-  components: { 
-   secretLayout
-   },
-}
+  components: {
+    secretLayout,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

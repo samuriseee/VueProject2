@@ -29,16 +29,15 @@
 </template>
 
 <script>
-
 export default {
   name: "Home",
   mounted() {
-      // vanilla js for parallax background 
-      var scene = document.getElementById("scene");
-      // this is ajax parallax libary
-      //eslint-disable-next-line
+    // vanilla js for parallax background
+    var scene = document.getElementById("scene");
+    // this is ajax parallax libary
+    //eslint-disable-next-line
       let parallaxInstance = new Parallax(scene);
-    },
+  },
 };
 </script>
 <style>
@@ -84,8 +83,8 @@ section {
 }
 .among {
   position: absolute !important;
-    left: 58vw !important;
-    top: 15vh !important;
+  left: 58vw !important;
+  top: 15vh !important;
 }
 .among img {
   width: 10%;
@@ -94,7 +93,8 @@ section {
   animation: spin 7s linear infinite;
 }
 @keyframes spin {
-  100% {transform: rotate(360deg);
+  100% {
+    transform: rotate(360deg);
   }
 }
 /* @keyframes moving {
@@ -151,5 +151,4 @@ section {
   z-index: 3;
   filter: brightness(0.5);
 }
-
 </style>
