@@ -23,6 +23,20 @@ export default {};
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 17px;
+}
+#nav a {
+  font-weight: bold;
+  color: #1776d4;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+#nav a:hover {
+  color: #fff;
+}
+#nav a.router-link-exact-active {
+  color: #fff;
 }
 #nav div {
   display: flex;
@@ -37,6 +51,8 @@ export default {};
   margin: 0px 5px;
 }
 #nav button {
+  width: 100px;
+  height: 50px;
   border-radius: 10px;
   border: none;
   outline: none;

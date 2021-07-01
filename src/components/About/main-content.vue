@@ -38,21 +38,24 @@ export default {
         {
           id: "0",
           title: "The dream is alive",
-          image: "https://www.linkpicture.com/q/Liam-Pannier-s-3D-Visuals-Are-Among-The-Stars-m-Visual-Atelier-8.jpg",
+          image:
+            "https://www.linkpicture.com/q/Liam-Pannier-s-3D-Visuals-Are-Among-The-Stars-m-Visual-Atelier-8.jpg",
           content:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         },
         {
           id: "1",
           title: "We make money2",
-          image: "https://www.linkpicture.com/q/Digital-Artist_-BEEPLE-Art-ARTWOONZ.jpg",
+          image:
+            "https://www.linkpicture.com/q/Digital-Artist_-BEEPLE-Art-ARTWOONZ.jpg",
           content:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         },
         {
           id: "2",
           title: "To infinity and beyond...",
-          image: "https://www.linkpicture.com/q/Digital-Artist_-BEEPLE-Art-ARTWOONZ.jpg",
+          image:
+            "https://www.linkpicture.com/q/Digital-Artist_-BEEPLE-Art-ARTWOONZ.jpg",
           content:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         },

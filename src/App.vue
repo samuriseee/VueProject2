@@ -35,17 +35,4 @@ export default {
   text-align: center;
   color: #fff;
 }
-#nav {
-  padding: 17px;
-}
-#nav a {
-  font-weight: bold;
-  color: #1776d4;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 15px;
-}
-#nav a.router-link-exact-active {
-  color: #fff;
-}
 </style>
